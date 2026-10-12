@@ -175,6 +175,6 @@ python frase_para_audio.py "Tss TsT ssU CsC Tss TsT ssU CsC Tss TsT ssU CsC Tss 
 O `frase_para_audio.py` também aceita `-a/--arquivo` (lê a sequência de um arquivo),
 `--bpm`, `--sem-audio`, `-m/--metronomo` e `--ganho`.
 
-### Declaração de uso de IA
+## Declaração de uso de IA
 
 Durante o desenvolvimento deste trabalho, utilizei o Claude (Anthropic) como assistente de apoio, com os seguintes objetivos: discutir a viabilidade do tema e questões de direitos autorais no uso de gravações existentes; revisar a validade formal de versões preliminares da gramática, com o assistente apontando apenas inconsistências e correções pontuais, sem propor melhorias no método; indicar bibliotecas Python para gerar MIDI e renderizar áudio; gerar o código LaTeX das tabelas que documentam a gramática; e indicar trechos do resumo que poderiam ser condensados para respeitar o limite de páginas. A concepção e a implementação da gramática, o código do gerador e a redação do resumo são de minha autoria. A conversa completa está disponível em: https://claude.ai/share/caf73b64-ddb1-4683-9f3c-e059de3008fb
