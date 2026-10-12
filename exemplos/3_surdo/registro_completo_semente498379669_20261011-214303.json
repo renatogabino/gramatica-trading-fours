@@ -1,0 +1,30 @@
+{
+  "modo": "completo",
+  "data": "2026-10-11T21:43:03",
+  "params": {
+    "prob_s": 0.1,
+    "prob_t": 0.1,
+    "prob_u": 0.8
+  },
+  "semente_base": 498379669,
+  "bpm": 160.0,
+  "metronomo": false,
+  "pecas": [
+    {
+      "sementes": [
+        498379669,
+        498379670,
+        498379671,
+        498379672
+      ],
+      "frases": [
+        "Uss UsU ssT UsU ssS TsT ssT ssC Uss UsU ssT UsU ssS TsT ssT ssC",
+        "ssS SsS ssS SsS ssS SsS ssS SsS ssU ssU UsU sss ssS SsS Tss Tss",
+        "CsC ssS SsS ssU Uss UsU Uss ssT CsC ssS SsS ssU Uss UsU Uss ssT",
+        "Uss UsU Uss ssU SsS ssU UsU Sss Uss UsU Uss ssU SsS ssU UsU Sss"
+      ],
+      "midi": "trading4s_01_semente498379669.mid",
+      "audio": "trading4s_01_semente498379669.wav"
+    }
+  ]
+}
