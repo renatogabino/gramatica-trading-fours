@@ -1,0 +1,7 @@
+# Requer Python 3.10+.
+# O resto do código usa só a biblioteca padrão.
+pretty_midi>=0.2.10   # criação e escrita dos arquivos MIDI
+numpy>=1.24           # pós-processamento do WAV (corte do silêncio e fade-out)
+
+# Para gerar WAV também é preciso o FluidSynth no PATH (não é pacote pip;
+# ver Instalação no README). Sem ele o pipeline gera só os MIDIs.
