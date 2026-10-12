@@ -19,8 +19,7 @@ tercina (12 por compasso em 4/4) e usam a caixa, o tom, o surdo e o chimbal aber
   A trilha de bateria dele é descartada.
 - `exemplos/`: peças geradas (MIDI, WAV e registro de cada execução); ver
   [Reproduzindo os exemplos](#reproduzindo-os-exemplos).
-- `GeneralUser-GS/`: soundfont GeneralUser GS, de S. Christian Collins (licença em
-  `GeneralUser-GS/documentation/LICENSE.txt`).
+- `GeneralUser-GS/`: Soundfont GeneralUser GS v2.0.3, de S. Christian Collins (https://www.schristiancollins.com). Licença em GeneralUser-GS/documentation/LICENSE.txt.
 
 ## Instalação
 
