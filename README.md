@@ -148,10 +148,10 @@ e mudam só os hiperparâmetros.
 
 | Pasta | Variação | Comando |
 |---|---|---|
-| `1_padrao_semente1` | padrão, semente 1 | `python pipeline.py --completo -n 1 --semente 1 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/1_padrao_semente1` |
-| `2_padrao_semente101` | padrão, semente 101 | `python pipeline.py --completo -n 1 --semente 101 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/2_padrao_semente101` |
-| `3_surdo` | surdo favorecido em `Comp(p)` | `python pipeline.py --completo -n 1 --semente 1 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/3_surdo --param prob_s=0.1 --param prob_t=0.1 --param prob_u=0.8` |
-| `4_livre` | só `CompLivre`: mais chimbal e trocas de tambor | `python pipeline.py --completo -n 1 --semente 1 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/4_livre --param prob_comp=0 --param prob_tambores=0 --param prob_livre=1` |
+| `1_padrao` | padrão, semente 1 | `python pipeline.py --completo -n 1 --semente 1343732135 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/1_padrao` |
+| `2_padrao` | padrão, semente 101 | `python pipeline.py --completo -n 1 --semente 1343732139 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/2_padrao` |
+| `3_surdo` | surdo favorecido em `Comp(p)` | `python pipeline.py --completo -n 1 --semente 498379669 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/3_surdo --param prob_s=0.1 --param prob_t=0.1 --param prob_u=0.8` |
+| `4_livre` | só `CompLivre`: mais chimbal e trocas de tambor | `python pipeline.py --completo -n 1 --semente 498379669 --sf2 GeneralUser-GS/GeneralUser-GS.sf2 -o exemplos/4_livre --param prob_comp=0 --param prob_tambores=0 --param prob_livre=1` |
 
 Os MIDIs (e as frases no registro) saem idênticos para a mesma semente e os mesmos parâmetros;
 o WAV pode variar levemente com a versão do FluidSynth.
